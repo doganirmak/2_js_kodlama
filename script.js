@@ -1,15 +1,13 @@
-let sonuc;
-let a = 10, b = 20, c = 30;
+let username = "dogan.irmak"
+let password = "1234"
 
-sonuc = a + b;
-sonuc = a - b;
-sonuc = a * b;
-sonuc = a / b;
-sonuc = c % a;
-sonuc = a++;
-sonuc = a--;
-sonuc = a *= b;
-
-
-console.log(sonuc);
-console.log(a);
+if (username == "dogan.irmak") {
+    if (password == "123") 
+    { console.log("uygulamaya giriş yapıldı."); } 
+    else { 
+    console.log("parola yanlış.");
+    }
+}
+else {
+  console.log("kullanıcı adı yanlış.");
+}
