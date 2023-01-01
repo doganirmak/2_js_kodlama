@@ -1,13 +1,12 @@
-let username = "dogan.irmak"
-let password = "1234"
+// yas >= 18
+// mezuniyet == "lise" ya da mezuniyet == "üniversite"
 
-if (username == "dogan.irmak") {
-    if (password == "123") 
-    { console.log("uygulamaya giriş yapıldı."); } 
-    else { 
-    console.log("parola yanlış.");
-    }
+let mezuniyet = "üniversite";
+yas = 20;
+
+if (yas >= 18 && (mezuniyet == "lise" || mezuniyet == "üniversite")) {
+    console.log("ehliyet alabilir");
 }
 else {
-  console.log("kullanıcı adı yanlış.");
+    console.log("ehliyet şartlarına uymuyor");
 }
