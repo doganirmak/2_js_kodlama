@@ -41,3 +41,4 @@ if (ort > 50) {
   } else {
     console.log("Kaldı");
   }
+}
