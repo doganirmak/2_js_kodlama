@@ -1,6 +1,6 @@
 let ad = "Doğan";
 let soyad = "Irmak";
-let yas = 66;
+let yas = 63;
 let sehir = "Londra";
 
 let mesaj =
@@ -23,7 +23,7 @@ let mesaj2 = `Benim adım ${ad} ve soyadım ${soyad}. ${sehir} da yaşıyorum. E
 let emeklilik =
   65 - yas > 0
     ? "Emekliliğe " + (65 - yas) + " yıl kaldı."
-    : "Zaten emekli oldunuz.";
+    : "Zaten emekli oldum.";
 
 let mesaj3 = `Benim adım ${ad} ve soyadım ${soyad}. ${sehir} da yaşıyorum. ${emeklilik}`;
 
