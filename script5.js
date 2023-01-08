@@ -17,3 +17,14 @@ firmaAdiInclude = firmaAdi.includes("Eğitimi");
 console.log(firmaAdiInclude);
 
 //5
+firmaAdiLower = firmaAdi.toLowerCase();
+console.log(firmaAdiLower);
+
+firmaAdiReplace = firmaAdiLower.replace(/ /g, "-");
+console.log(firmaAdiReplace);
+
+urlExtended = url + firmaAdiReplace;
+console.log(urlExtended);
+
+sonuc = `${url}/${firmaAdiReplace}`;
+console.log(sonuc);
